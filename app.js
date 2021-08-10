@@ -172,9 +172,9 @@ conjunto.forEach((elemt)=>{
                 'poco a poco logras dominarlo',
                 'success'
             )
+            ej();
             sumarPuntos(puntero);
             pintarNumero()
-            pintar();
             sub_total = 0;
             guardarModificacionLocal();
         }
@@ -182,6 +182,11 @@ conjunto.forEach((elemt)=>{
         efect.textContent = sub_total;
     })
 })
+
+function ej(){
+    window.intentos = 0;
+    elemetMostrar()
+}
 
 function guardarModificacionLocal(){
     let v1=valor[0].textContent
@@ -210,7 +215,7 @@ function Mostrar(){
 
 function elemetMostrar(){
     Mostrar()
-    setTimeout(()=>{pintar()},3000)
+    setTimeout(()=>{pintar()},1500)
 }
 
 function pintarPuntos(){
