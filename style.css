@@ -176,7 +176,7 @@ body{
     }
 
     .expandir{
-        width: 52vh;
+        width: 56vh;
         background-color: white;
     }
 
@@ -186,6 +186,9 @@ body{
         align-items: center;
     }
 
+    #mostrar{
+        margin-bottom: 15px;
+    }
 }
 
 

@@ -295,10 +295,3 @@ function noPuntos(){
 pintar();
 pintarNumero();
 pintarPuntos();
-
-
-function consultar(){
-    puntero === undefined ? console.log('no funca'):'';
-}
-
-consultar();
